@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 100vh;
+    gap: 60px;
+    /* background-color: rgb(46, 39, 39); */
+    margin: 10px;
+    /* background-image: url(slate.jpg); */
+} 
+
+.navbar-container {
+    /* text-align: center; */
+    text-decoration: none;
+    background-color: white;
+    border-radius: 2em;
+    width: auto;
+    left: 0;
+    position: fixed;
+    height: 60%;
+}
+
+.navbar-container a {
+    text-decoration: none;
+    padding: 20px;
+    margin: 1.5rem;
+    color: black;
+    font-size: 30px;
+    font-weight: 200;
+    gap: 2em;
+}
+
+.social-media a{
+    color: black;
+    font-size: 1.5rem; 
+}
+ 
+
+
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(46, 39, 39);
+    flex: 1;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+
+.myheader{
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+
+.project-one{
+    text-align: center;
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+
+    
+}
+.project-one h3 {
+    color: white;
+    font-weight: 300;
+    align-self: flex-start;
+}
+
+.project-one p {
+    color: white;
+}
+
+.projects-tab{
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+    gap: 20px;
+
+}
+
+.project-one-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-one-article{
+    display: flex;
+}
+
+
+
+hr {
+    width: 50%;
+    text-align: left;
+
+}
+
+.myproject {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+    flex: 1;
+    max-width: 500px;
+    min-width: 100px;
+}
+
+.myproject p  {
+    color: black;
+}
+
+.myproject h4 {
+    color: black;
+}
+
+
+.myproject:hover{
+    transform: scale(1.05);
+}
+
+.myproject button {
+    background-color: white;
+    padding: 10px;
+    color: blue;
+    border: none;
+}
